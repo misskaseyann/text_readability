@@ -1,4 +1,5 @@
 import os
+import re
 
 
 class Inspector(object):
@@ -13,16 +14,19 @@ class Inspector(object):
     @staticmethod
     def read(p):
         if os.path.isfile(p):
-            file = open(p)
+            file = open(p, 'r+', encoding='utf-8')
             return file
         else:
             print("This is not a valid file path or file.")
 
     def eval(self, file):
-        sentences = file.read().split('.')
+        sentences = file.read()
+        sentences = re.split('[.?!]+', sentences)
         sentences[:] = [x for x in sentences if x != '']
         self.total_sentences = len(sentences)
         for sentence in sentences:
+            sentence.strip('\n')
+            print(sentence)
             words = sentence.split(' ')
             words[:] = [x for x in words if x != '']
             self.total_words += len(words)
@@ -32,7 +36,7 @@ class Inspector(object):
     def count_syllables(self, w):
         word = w
         if word.endswith('e'):
-            if word.endswith("le") and not self.isvowel(word[-3]):
+            if len(word) > 2 and word.endswith("le") and not self.isvowel(word[-3]):
                 pass
             else:
                 word = word.rstrip('e')
