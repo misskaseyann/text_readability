@@ -21,12 +21,15 @@ class Inspector(object):
 
     def eval(self, file):
         sentences = file.read()
-        sentences = re.split('[.?!]+', sentences)
+        sentences = re.split('[.?!:]+', sentences)
         sentences[:] = [x for x in sentences if x != '']
         self.total_sentences = len(sentences)
         for sentence in sentences:
             sentence.strip('\n')
-            print(sentence)
+            sentence.strip('-')
+            sentence.strip('\'')
+            sentence.strip('\"')
+            print("**" + sentence + "**")
             words = sentence.split(' ')
             words[:] = [x for x in words if x != '']
             self.total_words += len(words)
