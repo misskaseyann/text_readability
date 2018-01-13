@@ -1,0 +1,216 @@
+HOW A GRAD STUDENT FOUND SPYWARE THAT COULD CONTROL ANYBODY’S IPHONE FROM ANYWHERE IN THE WORLD.
+Last summer, Bill Marczak stumbled across a program that could spy on your iPhone’s contact list and messages—and even record your calls. Illuminating shadowy firms that sell spyware to corrupt governments across the globe, Marczak’s story reveals the new arena of cyber-warfare.
+
+The night it happened, right after midnight on August 10, Bill Marczak and his girlfriend were staying up late to watch Star Trek reruns in their spare one-bedroom apartment, in El Cerrito, California, just north of the University of California at Berkeley campus.
+
+A trim Ph.D. candidate with dense brown hair and a disciplined beard, Marczak wasn’t just another excitable, fast-talking Berkeley grad student. He was a pioneering analyst in a new and unusual theater of cyber-warfare: the struggle between Middle Eastern freedom activists and authoritarian governments in countries such as Bahrain and Egypt. He was also a senior fellow at Citizens Lab, the University of Toronto “interdisciplinary laboratory” that had almost single-handedly discovered and alerted the world to how these governments were monitoring dissidents with spyware quietly marketed by a group of shadowy European and Israeli companies that have been labeled the first “cyber-arms dealers.”
+
+Before going to sleep, Marczak, always a tad obsessive, rolled out of bed to check his phone for messages. He was standing there in his boxer shorts when he saw it. “Oh my God,” he exclaimed, hopping up and down with excitement, his bright eyes shining even brighter than usual.
+
+
+Across the bed, his girlfriend wondered, “What is it?”
+
+“I think I just found something huge,” he answered, before kissing her and going into the living room, where he opened his laptop.
+
+When his girlfriend woke the next morning, he was still there.
+
+Marczak had indeed found “something huge.” An activist friend in the United Arab Emirates had sent him an e-mail containing a single Internet link, which Marczak was almost certain would, if clicked, release malignant spyware into his mobile phone. He managed to isolate a portion of its code, but it was so complex he decided to forward a copy across San Francisco Bay to engineers at a computer-security outfit called Lookout, whose offices high in a downtown skyscraper afforded panoramic views from the Golden Gate Bridge to Oakland.
+
+A pair of Lookout engineers, Andrew Blaich, a sandy-haired mobile-security specialist, and Max Bazaliy, an intense grad student from the Ukraine, were the first at the company to study the heavily obfuscated code.
+
+“What do you think it is?” Blaich asked.
+
+“I don’t know. Something really, really bad,” Bazaliy answered in his thick Ukrainian accent.
+
+It took all day for the two to realize just how bad.
+
+It is exceedingly rare to find a never-before-seen vulnerability that allows a hacker to infiltrate the operating system of a computer or mobile phone. Amazingly, the program Marczak had found would be shown to target not one, not two, but three such vulnerabilities.
+
+“Every new line of code, it was like, ‘Oh shit, this can’t be,’ ” Blaich recalls. “ ‘Oh shit. Oh shit.’ It just went on and on.”
+
+By nightfall, the two engineers were staring in disbelief. “This can spy on audio, e-mail, text messages . . . everything. Someone spent a lot of time creating this,” Blaich said.
+
+Bazaliy, a purist, thought it the most beautiful code he had ever seen. “There’s never been anything like this before,” he said.
+
+Video: Sony C.E.O. on How the Hack Changed Business
+
+
+There was a time, a few years back, when the most sophisticated cyber-warfare tools were still developed and used exclusively by the world’s most sophisticated cyber-warfare combatants: government spy agencies, such as the ultra-secret National Security Agency and its counterparts in Israel and other developed countries and their arch-rivals in China and Russia. The surveillance and monitoring capabilities that Edward Snowden unveiled to the world in 2013 were shocking and little understood, but an ordinary citizen could at least take comfort in the belief that, if he wasn’t a criminal or a spy, it was unlikely these tools would ever be used against him.
+
+That was then.
+
+Ever since Snowden, and even before, experts in cyber-security have watched warily as a handful of obscure companies launched efforts to replicate and sell weaponized “government-grade” spyware to the highest bidders. The ultimate prize, security experts knew, was the ability to hack remotely into the digital brains of the world’s most popular hardware—the desktops, laptops, tablets, and especially the mobile phones made by Apple. And not just break into Apple devices but actually take control of them. It was a hacker’s dream: the ability to monitor a user’s communications in real time and also to turn on his microphone and record his conversations.
+
+
+Programmers call this ultimate hack a “jailbreak.” Doing it with wires and cables is not unheard of. Once or twice a year someone, typically an attention-seeking hacker or computer-security start-up, will announce finding a vulnerability in the Apple operating system that allows a jailbreak. Apple, usually within weeks, issues a “patch” to fix it.
+
+Just two weeks before Marczak and the engineers at Lookout encountered the strange new code, a Chinese company named Pangu had announced a “tethered” jailbreak—one employing wires and cables—for Apple mobile operating systems between 9.2 and 9.3.3. It was the first “public” jailbreak released by anyone in five months.
+
+
+But for those interested in hacking Apple devices, the holy grail has long been a remote jailbreak, that is, one done wirelessly, from across the street or around the world. Only one is known to have ever been created, a tool called jailbreakme, first released in 2007; that, however, required a willing user and hasn’t been updated since 2010. In September 2015 a little-known company named Zerodium made waves in Silicon Valley by announcing it would pay a $1 million “bounty” to anyone who brought it an actual remote jailbreak. Two months later, without divulging what it intended to do next, Zerodium announced that someone had claimed the bounty.
+
+Then, last August, came the startling confirmation from Apple itself: a genuine remote jailbreak “in the wild,” the one discovered and identified by Marczak and the Lookout researchers. To everyone’s surprise it had been out there operating secretly for years.
+
+“This is a James Bond story,” says Mike Murray, Lookout’s vice president of security research and response, a curly-haired 40-year-old salesman type who formerly headed product-development security at G.E. “The guys who did this are James Bond villains, evil arms dealers attacking dissidents in the real world. It’s real. It’s true. This is finding cyber-weapons being used against someone in the real world. Before, people only suspected this might be out there.”
+
+“It’s kind of like a stealth bomber,” says Lookout security researcher Seth Hardy, an intense, well-known former hacker. “It’s one thing to know they exist. It’s an entirely different thing to have one crash into your backyard.”
+
+WHAT HAPPENS IN VEGAS
+In the beginning, back in the 1980s and early 1990s, there were computer hackers, mostly hobbyists, who attracted a lot of media attention by sneaking into the innards of government and corporate computers and running up and down their digital hallways unseen. It was, with some notable exceptions, viewed as harmless fun.
+
+That began to change in 1993, when a group of hacker pals put together an impromptu convention of sorts in Las Vegas, on a weekend in late July or August, when hotel rates were the lowest. Called DefCon, a nod to a favorite hacker movie, WarGames, it grew every year and soon earned a reputation as an uproarious affair, featuring such shenanigans as pouring laundry soap into swimming pools and hacking A.T.M.’s. By the late 1990s a few curious government people began appearing. It became a kind of game: organizers held a “Spot the Fed” contest, and if a claimant turned out to be right, he got an “I spotted the Fed” T-shirt.
+
+With the rise of online commerce, corporate types also became curious about what these hackers could do with their own and other people’s computers. As a result, several computer-security companies sprang up and began hosting a companion convention called Black Hat, “built by and for the global InfoSec community . . . [featuring] four days of intense trainings for security practitioners of all levels.”
+
+“The arrival of specialized computer-security companies who exhibited at Black Hat was a milestone,” says Chris Soghoian, the A.C.L.U.’s chief technologist. “You had all this money flowing in. There were parties, organized by vendors, with international D.J.’s to spin music. Eventually they got rid of the Spot the Fed contest because there were so many feds coming, to the point where N.S.A. employees would grow their hair out just to be cool for that one weekend.”
+
+
+“THE GUYS WHO DID THIS ARE JAMES BOND VILLAINS, EVIL ARMS DEALERS,” SAYS LOOKOUT’S MIKE MURRAY.
+
+The relationship between hackers and the military-technology complex has always been an uneasy one. For every “white hat” hacker who signs on to help a Symantec or a Lockheed-Martin, there is a “black hat” hacker who sneers at them as sellouts. By the early 2000s, black hats were emerging as a serious annoyance on the ever expanding Internet. What had begun in the 1990s as the odd Web-page defacement became an epidemic, with hundreds of hackers, many from Russia and Eastern Europe, competing to see who could spray the most digital graffiti on government and commercial Web sites. Others released harmful viruses and “worms” that could freeze or destroy software.
+
+The growing chaos fed on itself. The more trouble black-hat hackers caused on the Internet, the larger computer-security companies grew to fight them, often with the help of white-hat hackers. A turning point came in 2006, when someone infiltrated the computers at TJX, the parent company of such retail brands as T. J. Maxx and Marshalls, and stole thousands of credit-card numbers. At the time it was a remarkable crime. While there had been attacks on banks over the years, the TJX hack showed both black hats and white hats that there was serious money to be made in cyber-crime or in fighting it. For security companies and defense contractors, having one’s own hackers was no longer a luxury but an imperative.
+
+Then as now, the most valuable asset in a hacker’s arsenal is a so-called zero-day exploit, a previously undiscovered vulnerability in a piece of software, essentially a secret digital door to the inside. (“Zero days” refers to the amount of time—i.e., none—a target has to fix an entirely new kind of hack before damage can be done.) For a hacker, maintaining a zero day’s secrecy is paramount; once the exploit becomes known, the target—whether Microsoft, Apple, or another company—will nail the software door shut, rendering the exploit unusable. “It used to be that hackers would hold on to their zero days and trade them for more access or knowledge,” says Hardy. “Not anymore.”
+
+By 2010 a true black market for zero days was emerging beyond the usual black market. The turning point came when a French company named Vupen began to offer bounties for zero days, reportedly as much as $250,000. Vupen insisted its aim was keeping software safe, though many doubted that its intentions were so noble. Companies such as Hewlett-Packard and Microsoft responded with bounties of their own. Though far less than what Vupen and others were paying, these bounties offered white-hat hackers a way to make money while keeping their ethics intact. In addition, as former hackers, they might also end up with lucrative consulting contracts.
+
+“Vupen led to a divide in the hacker community,” Hardy says. “Do you burn zero days by selling them, or do you keep them secret? Some hackers sold. But true black hats kept their cards close.”
+
+In this new black market few knew exactly who the buyers were, but it was widely assumed that many were governments looking for clever new ways to spy on their own citizenry. “In 2011, 2012, there was this transition point where it was still fashionable to brag about how much money you were making selling zero days,” says Chris Soghoian, “while at the same time it was not yet unfashionable to acknowledge that you were facilitating human-rights abuses by governments that use those tools.”
+
+The Zeitgeist shifted decisively in March 2012, when Forbes magazine published a memorable photograph of a pasty-faced black-marketeer who called himself “the Grugq,” sitting in front of a laptop in Bangkok. To his right was an oversize martini, to his left an open bag of cash. “That photograph was a milestone,” Soghoian observes. “There had never been a photo of a hacker arms dealer. It brought a lot of attention to the industry. And, really, that was the last moment when it was socially acceptable for people to brag about their role in selling exploits to governments.”
+
+GOVERNMENT SPIES
+At the time, Bill Marczak knew little of this. He was just another grad student, researching Big Data. Marczak was born in New York. His father worked in finance, moving the family first to Hong Kong and then to the Persian Gulf kingdom of Bahrain, where Marczak spent his high-school years. When the Arab Spring unrest broke out, in late 2010, Bahrain soon became a riot zone, with young protesters seeking Western-style reforms facing off in the streets against government troops. Marczak, by this time at Berkeley, watched with fascination as the violence unfolded. When activists went on Twitter seeking information on the kinds of tear gas and weaponry the government was using against them, Marczak mined the Internet for answers. He began writing blog posts, which in 2012 led him and two other would-be activists to start an advocacy group they called Bahrain Watch.
+
+
+Things got strange in May 2012, when three of Marczak’s new colleagues—based in Washington, London, and the Bahraini capital, Manama—received suspicious e-mails from previously unknown correspondents. Marczak studied them with a security researcher named Morgan Marquis-Boire, who worked at Citizen Lab, then known mostly for its work tracking Chinese cyber-attacks on Tibetan activist groups. A link in the e-mails took the user to an attached blank Microsoft Word document, which the two young researchers discovered would secretly load spyware onto the user’s computer. As they dug deep into the suspicious code, the researchers found repeated use of the word “FinSpy.”
+
+FinSpy was quickly identified as part of a spyware product named “FinFisher,” created and marketed by a British company called Gamma Group, which billed FinFisher as a new way for police and intelligence agencies to monitor criminals and spies. Like several other new entrants into the spyware field, Gamma termed its products “lawful intercept” tools. Just the year before, however, protesters who had stormed Egypt’s state security headquarters carted out boxes of internal government documents, one of them an offer from the Egyptian secret police to buy the FinFisher program for $353,000. The Egyptian discovery suggested that Gamma, far from limiting its clients to those who targeted criminals, was quietly marketing FinFisher to authoritarian governments to monitor dissidents. Marczak’s work seemed to confirm it. But Gamma, contacted by a Bloomberg News reporter, denied selling FinFisher to the Bahraini government, suggesting it was using a stolen copy.
+
+A team of researchers at Rapid7, a Boston software-security outfit, set out to prove Gamma was lying. When a Rapid7 analyst named Claudio Guarnieri examined FinFisher’s code, he saw that when he pinged the I.P. address of a collection server it replied with an unusual response: “Hallo Steffi.” Guarnieri then used a program to survey every server on the Internet—roughly 75 million of them—to see if others responded the same. It took a couple of long weeks, but in the end the Rapid7 scan turned up 11 I.P. addresses in 10 countries, including Qatar, Ethiopia, and the U.A.E., that were known to monitor dissidents.
+
+But Gamma wasn’t alone. In July 2012, days after Citizen Lab released its report on Gamma online, a Moroccan activist group named Mamfakinch, which had published articles critical of the government, received an anonymous e-mail promising a sensitive scoop. A similar e-mail, purportedly from “Arabic WikiLeaks,” arrived in the in-box of the U.A.E. dissident Ahmed Mansoor, who had been imprisoned for insulting members of the government. When Mansoor clicked an attachment in the e-mail, it downloaded spyware onto his computer that monitored his every keystroke and communication.
+
+Both Mamfakinch and Mansoor contacted security experts. A Russian anti-virus company, Dr Web, was the first to publish an analysis confirming that both of their devices contained spyware marketed by a Milan-based company named Hacking Team. Unlike Gamma, Hacking Team was well known in cyber-circles. Founded by two Italian programmers in 2003, it had become one of the first sellers of commercial hacking and surveillance tools after its initial software package was embraced by the Milan police to spy on Italian citizens. With offices in three countries, including the U.S., it was probably the best known of the new breed of cyber-arms dealers. It insisted it refused to sell its products to a country blacklisted by NATO, but a Citizen Lab report showed that its tools were being used by the Moroccan and U.A.E. governments.
+
+
+Then came an ironic comeuppance. Someone, later identified as a previously unknown hacker named “Phineas Fisher,” managed to take control of Hacking Team’s Twitter account and triggered a massive data breach. The tweets contained links to more than 400 gigabytes of internal Hacking Team data, including e-mails, corporate files, invoices, and source code. There was even a client list, which put the lie to the claims that Hacking Team wasn’t selling its products to repressive governments. The clients included Morocco, Malaysia, Saudi Arabia, Uganda, Egypt, Oman, Turkey, Uzbekistan, Nigeria, Ethiopia, Sudan, Kazakhstan, Azerbaijan, Bahrain, and Albania, not to mention three American clients: the F.B.I., the Drug Enforcement Administration, and the Department of Defense. (Hacking Team did not respond to requests for comment.)
+
+“APPLE HAD NEVER SEEN ANYTHING LIKE THIS . . . INCREDIBLY SOPHISTICATED NATION-STATE ATTACK.”
+
+“The Hacking Team thing was monumental,” says Chris Soghoian. “Prior to that, the only thing that researchers had was circumstantial evidence that this was going on. They would find a FinFisher server in Morocco and say that’s evidence the government was using it. Before Hacking Team, there was no smoking gun.”
+
+But though a handful of Hacking Team clients, including the D.E.A., severed ties with the company, nothing much changed but perceptions. Hacking Team, like Gamma, continues in business—and a booming business it is. One expert estimates the global market at $5 billion.
+
+It was just a month after the Hacking Team data breach, in fact, that Zerodium, a company whose C.E.O. had founded Vupen, announced its $1 million bounty for the mother of all commercial hacking tools: a remote jailbreak.
+
+A few days after the Zerodium bounty was claimed, Marczak got a message from Rori Donaghy, a London-based writer on human-rights issues in the Middle East, who had been publishing articles critical of the United Arab Emirates government for a Web site called Middle East Eye. Donaghy had received an invitation to join a panel discussion from a group he had never heard of, “the Right to Fight.” He thought a link included in the e-mail looked suspicious. Marczak discovered that clicking it took the user to a Microsoft Word document that contained only a logo and a description for the fake “the Right to Fight” group—while secretly inserting spyware onto the user’s computer. He checked with other Persian Gulf dissidents and found that many had received the same strange e-mail and had already clicked the link. As Citizen Lab often did, Marczak gave this unknown attacker a code name: Stealth Falcon.
+
+Once Marczak identified the server that had sent the e-mail, he “fingerprinted” it and began to search the Internet for other machines with the same fingerprint. There were hundreds. Each had a domain name. Most were registered with a “privacy protection” service, meaning Marczak couldn’t learn who had registered the domains. But about 10 weren’t. Checking the names and addresses of the entities that had registered the sites, he realized the information was all fake. So he checked to see if these fictitious users had created other sites.
+
+One had. It had created three domain names, all impersonating a popular Web site for Arab news and gossip. Digging deeper, he found each was associated with something called “SMSer.net.” When he searched the Internet for servers with “SMS” in their domain names, he found about 120, almost all associated with mobile-phone companies in developing countries such as Mexico and Mozambique. Next Marczak checked who had registered these domain names. Most of the street addresses associated with the domain names were seemingly located in Israel.
+
+“That’s when I thought, Hmm, I wonder if this is NSO,” he remembers.
+
+NSO Group was a six-year-old Israeli spyware company so secretive it didn’t even have a corporate Web site. Marczak knew of it from a single entry on an Israeli Ministry of Defense Web site, in which the company claimed to have developed cutting-edge spyware. Checking further, he was surprised to find that two years earlier it had sold a controlling stake in its business to Francisco Partners, a San Francisco hedge fund, for $120 million.
+
+Though he strongly suspected NSO software was being used in the Stealth Falcon attacks, Marczak couldn’t prove it. Whoever it was, he realized, knew what they were doing. By the time Marczak finished tracking Stealth Falcon, the following spring, he found its campaign had originated from 67 different servers and had lured more than 400 people into clicking its links and loading spyware onto their devices. He also discovered that 24 U.A.E. citizens had been targeted with the same spyware in posts sent via Twitter. Three had been arrested shortly after. Another was convicted of insulting the U.A.E.’s rulers in absentia. His Citizen Lab report, issued last May, described the Stealth Falcon attacks in detail, suggesting that the U.A.E. was behind them, but stopped short of naming NSO.
+
+For Marczak this amounted to unfinished business.
+
+The e-mail Marczak received that night last August in Berkeley came from Ahmed Mansoor, the U.A.E. dissident, who remained under relentless harassment by his government. Mansoor had been imprisoned and beaten on the street, then had his passport confiscated. Someone stole his car. His bank account was drained of $140,000—all while he was fighting off multiple attempts by the U.A.E. government to hack his computers and phones.
+
+What got Marczak so excited was a U.R.L. he spied at the bottom of a text Mansoor had sent: “sms.webadv.co.” He remembered it as one of the hundreds of servers he had linked to NSO: here, it appeared, was the evidence he needed to pin the Stealth Falcon campaign on the Israeli company. In his living room, Marczak wrote a program that allowed his laptop to impersonate a mobile phone, the device Mansoor would have used. By doing so, he hoped to reconnoiter the spyware’s server, wherever it was, without infecting his computer. The Hacking Team tools released by Phineas Fisher worked only on older versions of Android phones; if contacted by a newer version, it sent back a harmless “decoy” page. Marczak assumed this program worked the same way.
+
+It didn’t. When Marczak clicked the link contained in Mansoor’s e-mail, his Safari browser suddenly opened and then immediately shut. Monitoring what was happening in the background, he could see what appeared to be the first stage of a spyware program uploading onto his laptop. Before it could do any damage, he severed the connection.
+
+But he had seen enough. In an attempt to impersonate Mansoor, Marczak had been using the penultimate version of the Apple O.S., iOS 9.3.3. The NSO spyware, if that’s what it was, could clearly infiltrate it, via Safari. And because the newest version of iOS, 9.3.4., didn’t change anything in Safari, Marczak realized the spyware had to be using an exploit never before seen: a zero day.
+
+“Wow,” he said aloud.
+
+When he went to study the JavaScript code he had captured on his laptop, however, Marczak was disappointed. It was gibberish, page after page of heavily obfuscated code. This was above his pay grade. To figure out what the program actually was, he would need serious help.
+
+One of his Citizen Lab colleagues suggested that Marczak reach out to Seth Hardy, a former Citizen Lab analyst who worked at Lookout, a top-shelf purveyor of security software that specializes in mobile phones.
+
+Lookout had been founded in 2007 by three University of Southern California computer-security specialists: John Hering, Kevin Mahaffey, and James Burgess. While fooling around with new technologies the three discovered a vulnerability in the Nokia 3610’s Bluetooth connection to wireless headsets, giving unauthorized access potentially to millions of mobile devices. They informed Nokia, but the company would not take the problem seriously because it believed Bluetooth communication was limited to a 30-foot range.
+
+To prove their point the three hackers built a “BlueSniper rifle”—a piece of hardware that enabled them to extend Bluetooth’s range to more than a mile—and took it to the 2005 Academy Awards, where they easily collected data from dozens of celebrities’ phones. Nokia was finally persuaded to fix the problem.
+
+Seth Hardy took the call not long after sunrise. “He told us this suspicious link had compromised an iPhone with just one click, which suggested someone had weaponized a zero-day exploit,” Hardy recalls. “I mean, that’s incredibly rare. It sounded like it could be big.”
+
+Hardy thought of Max Bazaliy, a 29-year-old Ph.D. candidate at Kiev Polytechnic. Bazaliy was the only person at Lookout who had actually created a jailbreak, albeit a “public” jailbreak using wires and cables. He and Andrew Blaich furrowed their brows as they scrolled down the code, nearly 1,400 lines of multicolored commands in seemingly random order, tossed about like a salad. “This is clearly seriously bad stuff, but we had no idea what it was,” recalls Mike Murray, the engineers’ boss. “So we said, ‘Let’s guess at the worst-case scenario and see if it’s that.’ A worst-case scenario is a remote jailbreak.”
+
+CODE RED
+Many spyware programs are packaged in three stages. Stage One infiltrates the user’s device. Stage Two prepares the device for monitoring; when finished, it contacts a server to deliver the actual spyware package. The spyware’s delivery and setup constitutes Stage Three. Because it had taken control of Marczak’s Safari browser, the Lookout analysts were confident that Marczak’s code was Stage One of spyware using a zero day. “A Safari exploit is huge,” Murray says. “If you have that, you can get into any Apple device in the world.”
+
+The code Marczak discovered was “obfuscated,” that is, jumbled so thoroughly it was impossible to understand. It took several hours for Blaich and Bazaliy to identify the hidden program’s components and line them up in order. After that, they searched for a way to find the program’s second stage. Unfortunately, Marczak had severed his connection before Stage Two could upload. Worse, the link he had clicked was a “single use” link, the digital equivalent of a “Mission: Impossible” message that bursts into flame after one listen.
+
+But Bazaliy and Blaich thought they might locate it if they could track down the server where the spyware originated. Already they could see a series of U.R.L.’s in the Stage One code. Once they had identified which one was likely the original server, they saw that it could be contacted only by a computer in the Middle East. Bazaliy set to work building a V.P.N. (virtual private network) tunnel, a commonly used bit of software that masks a telephone’s G.P.S. coordinates, routing his path to the server through a series of foreign countries before finding one he could use in the U.A.E. By scanning each of the U.R.L.’s, the team was able to identify bits and pieces of code it believed to be Stage Two.
+
+There was just one hitch: “It looks like a jailbreak, but it’s encrypted, which is a problem,” recalls Bazaliy. “We have no idea what algorithm it was using for its decryption.”
+
+They spent hours that day searching for the algorithm before realizing the answer had been in front of them all along. Eventually Bazaliy realized that Stage One must know how to decrypt Stage Two in order to launch it. So they searched for elements of a decryption algorithm in Stage One and slowly pieced one together.
+
+It was only upon decrypting Stage Two that they began to amass evidence of what the program was. The key lay in references within the code to the iPhone’s digital brain, called the “kernel.” The way Apple, like many computer-makers, protects the kernel from infiltration is by “randomizing,” or constantly changing, its internal address; if a hacking program can be viewed as a hunter, the kernel is a jackrabbit that constantly darts between hedgerows to hide from it. The eureka moment came when Bazaliy found the code “calling” for the kernel, much as a hunter would use a duck call to find ducks. “This is how Max knew it was a jailbreak,” Mike Murray explains. “The code in Stage Two was all about how to find the kernel. The only reason to find a kernel is to attack it. The only reason to call for the kernel is to attempt a jailbreak.”
+
+To their surprise, the subprogram contained a second zero-day exploit. Two zero days in one program: no one had ever seen anything like it. Bazaliy thought it had to be a remote jailbreak. But unless they could find and analyze the third stage of code, there was no way to prove it. Any chance of that, however, had died the moment Marczak clicked on the link. It appeared they were at a dead end.
+
+Then they got lucky. As the team at Lookout struggled to unravel the strange code that Wednesday, Marczak was surprised to receive a second message from Mansoor. He had gotten yet another suspicious e-mail, and, incredibly, it contained a link that directed him again to sms.webadv.co. The U.A.E. government, Marczak wagered, was not only persistent but overconfident, or at least unconcerned about being discovered.
+
+This time he wasn’t taking any chances. What he needed, Marczak realized, was to impersonate Mansour’s iPhone; if the host server saw the link clicked by a different kind of phone than Mansour’s, it might suspect something amiss. Mansour used a slightly older phone, an iPhone 5, running the 9.3.3 version of iOS. Marczak began asking around his office in downtown Berkeley, seeing if anybody had one. It wasn’t an easy favor to ask; after all, he intended to infect the phone with cutting-edge spyware. Still, after a few hours his office-mate, a computer-security specialist named Nicholas Weaver, volunteered that his girlfriend had just upgraded her iPhone but had kept the older model to use to listen to music at her job in a winery.
+
+Thursday morning, having wiped the old phone clean of data, Weaver brought it into the office the two men shared. They closed the door behind them; no one else knew what they were attempting. With Weaver at his shoulder, Marczak first set up a wireless access point, essentially a mini-network all his own, the better to contain the dangerous code. He then hooked his laptop via Wi-Fi to the old iPhone, so that he could watch on his computer screen the images of whatever code secretly invaded the phone. Lastly he arranged a V.P.N. so that the phone appeared to be calling from the U.A.E.
+
+When they were finished, Marczak pasted the link into the phone’s Safari browser. Then, with a deep breath, he clicked on the link. In an instant a blank Web page opened—and then closed itself 10 seconds later. “Ohhhh, that’s an exploit,” Marczak murmured. He had seen enough spyware to realize the sudden opening and closing of Safari almost certainly meant a hostile program was using an undiscovered exploit to hack into the phone. It took a few seconds for him to fully comprehend what this might mean: if alien code next headed for the kernel, he might be seeing a remote jailbreak “in the wild,” as programmers call it, something no one had ever witnessed before.
+
+“O.K.,” he said, “this is completely not possible to do.”
+
+Suddenly lines of colorful computer code began manically unspooling down his screen: a view of the alien code invading the phone. “The phone is totally calm,” he remembers. “But the laptop is going crazy.” If Stage One of the code was the Safari exploit, this new code had to be a full Stage Two, a version of which the Lookout engineers had already begun assembling. It was designed to break down the kernel’s defenses in preparation for delivery of the actual spyware. And that, Marczak realized with a start, was exactly what was happening. The code was attempting a remote jailbreak.
+
+This all happened in a matter of seconds. In the next moment or so, he and Weaver watched the laptop screen as alien code invaded the phone’s kernel. When the code on his laptop screen paused, then began once more, they could see it had now finished its preparations and was seeking to establish contact with a host—no doubt a computer server controlled by the U.A.E. government. But for some reason the phone didn’t make contact. Its request went unanswered.
+
+Marczak scrunched his brow. Ninety seconds later the phone tried again. “There it goes,” he said, expecting it was a momentary glitch. But this call too went unanswered. He and Weaver exchanged glances. This was odd. “Why is it failing?” Marczak asked.
+
+They watched in silence as the phone tried a third time and failed. Then it tried again.
+
+“Please work, please work,” Weaver began to whisper.
+
+But the fourth call too went unanswered.
+
+“Maybe they’re onto us,” Marczak suggested.
+
+“Maybe,” Weaver said. “But I don’t see how.”
+
+The code made a fifth call. Nothing. No one was answering. Marczak was starting to grow dejected. It appeared this was a solid attempt at a remote jailbreak, but not a successful one.
+
+Then, on the sixth call, the server answered. A connection was established. Suddenly the laptop screen burst into a blizzard of lightning-fast code, “just this huge unmitigated blob” of code being delivered from the host directly into the phone’s kernel. It was the actual spyware. If all the code to this point had been thousands of aliens preparing the Earth for invasion, this was the mother ship.
+
+For several moments Marczak and Weaver watched in silence, stunned to see evidence of an actual remote jailbreak in the wild. Then Marczak saw the danger they were in. If the spyware was transferring information back to a host, the data might well include the phone’s actual G.P.S. coordinates. The host would know where they were.
+
+“I think we should shut it down,” Marczak said.
+
+Weaver saw it, too. “Shut it down,” he said.
+
+Once they were certain the entire Third Stage had loaded, Marczak ripped out the cables connecting the phone to the laptop. Then he snatched up the phone, turned off its power, and placed it in a metal desk drawer they kept for the rare occasions they needed to isolate a piece of hardware. The connection to the host was severed.
+
+For a moment they just sat there, grinning like children. Then both men let out whoops of joy and exchanged an exuberant high five.
+
+“Damn,” Weaver finally said. “It feels good to be a gangsta.”
+
+All that weekend the Lookout team worked around the clock studying the beast Marczak had captured. They found a third zero day in the complete Stage Two, making this probably the most sophisticated spyware ever identified. Max Bazaliy discovered several references to “NSO,” deepening their conviction that the Israeli company was responsible. If so, what they were seeing was likely NSO’s flagship surveillance software, called Pegasus. (NSO executives could not be reached for comment, but in August, NSO emphasized in a statement to Forbes that it does not operate spyware, but merely sells it. “The company sells only to authorized governmental agencies . . . . The agreements signed with the company’s customers require that the company’s products only be used in a lawful manner. Specifically, the products may only be used for the prevention and investigation of crimes.”)
+
+By reverse-engineering it, they found that it could simultaneously monitor a phone’s e-mail, Internet use, keystrokes, Skype chats, and a slew of other applications. It could turn on a microphone and listen to a user’s conversations. “We’ve seen all these capabilities by themselves,” says Mike Murray. “I don’t think anyone has ever seen them in one piece of software before.”
+
+“It was amazingly sophisticated,” says Blaich. “Normally spyware is a battery hog. One way you know you might be infected is if you get messages saying your battery is low. There is actual code in here that makes it battery-conscious. If it senses it’s using too much battery, it will actually shut itself down.”
+
+“It’s amazing,” says Seth Hardy. “It will wait till the user goes on Wi-Fi to send off large packets of information, to avoid killing the battery. We’d never seen anything like that before this.”
+
+The next step was to alert Apple. Murray wanted to hold off till they fully understood the program, but Marczak insisted they call immediately. The risk to iPhone users was too great. A conference call was arranged that Monday. “Apple is pretty funny,” Hardy remembers. “So we told them we had a remote jailbreak. And they were like, ‘Yeah yeah yeah, we’ve seen this before—send us what you have.’ So we did, and a few hours later they called back and, you know, very serious, [said] ‘O.K., send us everything you got.’ ”
+
+Apple managed to issue a “patch” to fix the three zero-day exploits just 10 days after the call, an engineering feat that surprised many of those involved. An Apple spokesman declined comment, but a Silicon Valley security consultant who works closely with the company says, “Apple had never seen anything like this—ever. This was an incredibly sophisticated nation-state attack, kind of breathtaking in its scope. This took a herculean effort on their part to patch it so fast. It was Katy-bar-the-door over there.”
+
+It’s an uplifting story, but the fact is Apple and other computer-makers are fighting a losing battle. As long as there are hackers, they will continue to find ways to hack any device that interfaces with them. These dangers were highlighted this fall when a New England company found itself the target of a mass denial-of-service attack from millions of non-computer “zombie devices” connected to the Internet—most notably baby monitors.
+
+“What these cyber-arms dealers have done is democratize digital surveillance,” says the A.C.L.U.’s Chris Soghoian. “The surveillance tools once only used by big governments are now available to anyone with a couple hundred grand to spend.” In fact, they may be coming to your iPhone sometime soon.
