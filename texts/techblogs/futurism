@@ -1,0 +1,53 @@
+We Need to Open the AI Black Box Before It’s Too Late
+by Bahar Gholipour.
+
+For a number of years in the 1980s, applicants to St George’s Hospital Medical School in London were selected with a high-tech method. A computer program, one of the first of its kind, took the first look at their résumés, carrying out the initial selection of about 2,000 candidates every year. The program analyzed the admissions records to learn the characteristics of successful applications, and was adjusted until its decisions matched those of the admissions team.
+
+But the program had learned to look for more than good grades and signs of academic prowess. Four years after the program was implemented, two doctors at the hospital discovered the program tended to reject female applicants and those with non-European-sounding names, regardless of their academic merit. As many as 60 applicants each year could have been refused an interview simply because of their gender or race, the doctors found. The program had incorporated the gender and racial biases in the data used to train it — it was essentially taught that women and foreigners were not doctor material.
+
+Three decades later, we are facing a similar problem, but programs with internalized biases are now more widespread and make decisions with even higher stakes. Artificial intelligence algorithms powered by machine learning are now used everywhere, from government institutions to healthcare, aiding decision-making by providing predictions based on historic data. As they learn patterns in the data they also absorb biases in it, perpetuating them. Google, for example, showed more ads for lower paying-jobs to women than to men, Amazon’s same-day delivery bypassed black neighborhoods, and the software on several types of digital cameras struggled to recognize the faces of non-white users. In one of the most striking examples, an algorithm called COMPAS, used by law enforcement agencies across multiple states to assess a defendant’s risk of reoffending, was found to falsely flag black individuals almost twice as often as whites, according to a ProPublica investigation.
+
+It is difficult to figure out if an algorithm is biased or fair, even for computer experts. One reason is that the details behind an algorithm’s creation are often considered proprietary information, so are closely guarded by their owners. In more advanced cases, the algorithms are so complex that even their creators don’t know exactly how they work. This is AI’s so-called black box problem — our inability to see the inside of an algorithm and understand how it arrives at a decision. If it’s left unsolved, it can devastate our societies by ensuring that historical discrimination, which many have worked hard to leave behind, is hard-coded into our future.
+
+These worries, whispered within smaller computer science communities for a few years, are now gaining a central spot in the field. In the past two years, the field has seen a huge spike in the number of papers on fairness in AI. With that awareness, there’s also a growing sense of responsibility. “Are there some things we just shouldn’t build?” Kate Crawford, Microsoft researcher and cofounder of the AI Now Institute at NYU, asked in a recent speech.
+
+
+“Machine learning has finally made it to prime time. Now we are trying to use it for hundreds of different purposes in the real world,” Rich Caruana, a senior researcher at Microsoft, told Futurism. “It is possible for people to deploy harmful algorithms that can add up to have quite a big impact on society on the long run… Now it feels like all of a sudden everyone is aware that this is an important new chapter in our field.”
+
+The Algorithm Made Me Do It
+We have been using algorithms for a long time, but the black-box problem is somewhat unprecedented. Earlier algorithms were simpler and transparent. Many of them are still in use — for example, for credit scoring by FICO. For each new use, regulation has followed.
+
+“People have been using algorithms for credit scoring for decades, but in those areas there have been pretty strong regulations that grew up alongside the use of these prediction algorithms,” Caruana said. These regulations ensure that prediction algorithms provide an explanation for each score: You were denied because your loan balances are too high, or because your income is too low.
+
+The regulations that prevent credit scoring companies from using inscrutable algorithms are absent in other areas, like the legal system and advertising. You may not know why you were denied a loan or didn’t get a job, because no one forces the owner of the algorithm to explain how it works. “But we know that because [the algorithms] are trained on the real world data, they have to be biased — because the real world is biased,” Caruana said.
+
+Consider language, for example — one of the most obvious sources of bias. When algorithms learn from written text, they pick up some associations between words that appear together more often. They learn, for example, that “man is to computer programmer as woman is to homemaker.” When this algorithm is tasked to find the right résumé for a programming job, it will be more likely to pick male applicants than females.
+
+Problems such as this one are fairly easy to fix, but many companies simply don’t go to the trouble of doing so. Instead, they hide such inconsistencies behind the shield of propriety information. Without access to details of an algorithm, in many cases even experts can’t determine whether or not bias exists.
+
+Because these algorithms are secretive and outside regulators’ jurisdiction, it’s almost impossible for citizens to bring a case against the algorithms’ creators. Those who have tried haven’t gotten very far. In 2016, Wisconsin’s highest court denied a man’s request to review the inner working of COMPAS. The man, Eric L. Loomis, was sentenced to six years in prison in part because COMPAS deemed him to be “high-risk.” Loomis says his right to due process is violated by the judge’s reliance on an opaque algorithm. A final bid to take the case to the U.S. Supreme Court failed in June 2017. Separately, two law professors spent a year probing states to understand how they use scoring in their criminal justice systems. The only thing their investigation confirmed is that this information is well hidden behind nondisclosure agreements.
+
+But secretive companies may not enjoy their freedom indefinitely. By March, the European Union will enact laws that will require companies to be able to explain to inquiring customers how their algorithms work and make decisions.
+
+The U.S. has no such legislation in the works. But there are signs that the tide might be turning towards more regulatory oversight. In December 2017, the New York City Council passed a bill to establish a task force that will study algorithms used by city agencies and explore ways to make their decision-making processes understandable to the public.
+
+Black Box Forensics
+No matter if regulators get involved, a cultural shift in how algorithms are developed and deployed may reduce the pervasiveness of biased algorithms. As more companies and programmers pledge to make their algorithms transparent and explainable, some hope that companies that don’t will be called out and lose good standing in the public’s opinion.
+
+Recently, growing computational power has made it possible to create algorithms that are both accurate and explainable — a technical challenge that developers have historically struggled to overcome. Recent studies show it’s possible to make explainable models that predict whether criminals are likely to reoffend that are just as accurate as the black-box versions such as COMPAS.
+
+“The research is there — we know how to create models that are not black boxes,” Cynthia Rudin, an associate professor of computer science and electrical and computer engineering at Duke University, told Futurism. “But there is some difficulty getting people to notice this work. If government agencies stop paying for black box models that would help. If judges refuse to use black box models for sentencing, that would help too.”
+
+Others are working to come up with ways to test the fairness of algorithms by creating a system of checks and balances before an algorithm is released to the world, the way a new drug has to pass clinical trials.
+
+“What’s happening right now is that models are being made too quickly and deployed. There are no proper checks throughout the entire process or requirements to test it in the real world for a trial period,” Sarah Tan, a doctoral student in statistics at Cornell University, told Futurism.
+
+Ideally, developers should clean known biases — such as those for gender, age, and race — from their training data, and run internal simulations to check their algorithms for other problems that might have still found a way in.
+
+In the meantime, before getting to the point where all algorithms are rigorously tested before release, there are ways to find which ones might suffer from bias.
+
+In a recent paper, Tan, Caruana, and their colleagues described a new way to understand what might be happening under the hood of black box algorithms. The team created a model that mimics a black box algorithm like COMPAS by training on the recidivism risk score that COMPAS predicted. They also created another model that they trained on real-world outcome data that show whether or not that predicted recidivism actually happened. Comparing the two models allowed the researchers to assess the accuracy of the predicted score without dissecting the algorithm. Differences in the outcomes of the two models can reveal what variables, such as race or age, may have been given more importance in one model or another. Their findings were in line with what ProPublica and other researchers have found — that COMPAS is biased against black individuals.
+
+There could be big rewards for fixing such biases. Algorithms, if built properly, have the power to erase longstanding biases in criminal justice, policing, and many other areas of society.
+
+“If we do work on this and manage to reduce the bias, we can have a virtuous feedback loop, where in fact algorithms slowly help us become less biased as a society,” Caruana said.
